@@ -23,12 +23,12 @@ public class Address
 		this.streetName = streetName;
 		this.city = city;
 		this.pinCode = pinCode;
-		this.lastname= lastname;
+		
 	}
 	
 	@Override
 	public String toString() {
-		String msg=this.flatNo+" "+this.streetName+" "+this.city+" and "+this.pinCode + this.lastname;
+		String msg=this.flatNo+" "+this.streetName+" "+this.city+" and "+this.pinCode;
 		return msg;
 	}
 }
