@@ -28,7 +28,7 @@ public class Address
 	
 	@Override
 	public String toString() {
-		String msg=this.flatNo+" "+this.streetName+" "+this.city+" and "+this.pinCode;
-		return msg;
+		String msgs=this.flatNo+" "+this.streetName+" "+this.city+" and "+this.pinCode;
+		return msgs;
 	}
 }
